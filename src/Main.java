@@ -1,17 +1,16 @@
 public class Main {
 
-    //basic method.
-    static void hello(String name, int num){
-        System.out.println("Hello " + name+ " tu numero es el "+ num);
+    //metodo sum.
+    static int sumar(int num1, int num2){
+        return num1 + num2;
     }
 
     //main method.
     public static void main(String[] args) {
+        int x = 3;
+        int y = 4;
 
-        String name = "bro";
-        int num = 1;
-
-        hello(name, num);
+        System.out.println(sumar(x,y));
 
     }
 }
