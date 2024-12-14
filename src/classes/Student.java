@@ -14,14 +14,8 @@ public class Student extends Person{
 
     @Override
     public String toString() {
-        return "Person { name: "+ name +", age: "+ age +", studentID: "+studentID+", major: "+major+"}";
+        return "Student { name: "+ name +", age: "+ age +", studentID: "+studentID+", major: "+major+"}";
     }
-
-//    @Override
-//    public void showInfo() {
-//        System.out.printf("%s's info: \n", this.name);
-//        System.out.println(this);
-//    }
 
 
     @Override
