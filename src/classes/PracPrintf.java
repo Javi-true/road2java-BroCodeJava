@@ -1,3 +1,5 @@
+package classes;
+
 public class PracPrintf {
     public static void main(String[] args){
         boolean myBoolean = true;
